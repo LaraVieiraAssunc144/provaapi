@@ -1,0 +1,9 @@
+CREATE DATABASE tbvilao2;
+USE tbvilao2;
+
+CREATE TABLE tb_vilao(
+ ID_VILAO int primary key auto_increment ,
+ NM_VILAO VARCHAR (100),
+ NM_MALADADES VARCHAR (200),
+ BT_SUER_PODER BOOLEAN
+)
